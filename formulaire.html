@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jeu de mémoire - tp3</title>
+</head>
+<body>
+    <header>
+        <h1>Jeu de mémoire</h1>
+    </header>
+    <main>
+        <h2 id="titre">Entrez vos paramètres</h2>
+        <table id="tableau">
+            <form action="" id="parametresCreation">
+                <tr>
+                    <td><label for="nom">Nom :</label></td>
+                    <td><input type="text" id="nom" name="nom"></td>
+                </tr>
+                <div id="countdown"></div>
+                <div id="timer"></div>
+                <tr>
+                    <td><label for="nbPaires">Nombre de paires :</label></td>
+                    <td><input type="number" id="nbPaires" name="nbPaires" min="2" max="10" value="2"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Go !</button></td>
+                </tr>
+            </form>
+        </table>
+        <div id="jeu"></div>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>

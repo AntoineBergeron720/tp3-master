@@ -1,0 +1,74 @@
+.revele{
+    background-color: aliceblue;
+    vertical-align: top;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 40px;
+}
+
+.cache{
+    background-image: url("dosDeCarte.png");
+    background-size: cover;
+    vertical-align: top;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 40px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(97, 23, 23);
+}
+
+header{
+    padding: 25px;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+table{
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    border-collapse: collapse;
+    margin: 25px;
+}
+
+table td{
+    text-align: center;
+}
+
+table input{
+    width: 60%;
+    height: 30%;
+}
+
+table button{
+    width: 35%;
+    height: 50%;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+.erreur{
+    display: block;
+    margin-top: 5px;
+    color: rgb(226, 18, 18);
+  }
